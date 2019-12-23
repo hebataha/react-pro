@@ -9,9 +9,9 @@ import SuccessfullyPage from './pages/successfullyPage';
 import ResetPass from './pages/ResetPass';
 import Send from './pages/Send';
 import FaqPage from './pages/FaqPage';
-import SliderSection from './pages/SliderSection';
-import SimpleSlider from './pages/SliderComponent';
-import CartComponent from './pages/CartComponent';
+import SliderSection from './components/SliderSection';
+import SimpleSlider from './components/SliderComponent';
+import CartComponent from './components/CartComponent';
 
 
 

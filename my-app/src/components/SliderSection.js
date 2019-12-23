@@ -2,7 +2,7 @@ import React from 'react';
 import PropTypes from 'prop-types'; 
 import Slide from '../images/visitor/slide.png';
 import Left from '../images/visitor/left.png';
-import SimpleSlider from '../pages/SliderComponent';
+import SimpleSlider from '../components/SliderComponent';
 
 
 
