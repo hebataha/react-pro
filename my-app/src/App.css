@@ -358,7 +358,23 @@ margin: auto;
   margin-right:-15px
 
 }
-
+.card{
+    border:1px solid #ddd;
+    padding:20px ;
+    margin-top: 30px;
+}
+.img-ads img{
+    height:400px
+}
+.slick-slide img {
+    display: block;
+    width: 100%;
+    height: 400px;
+}
+.card img{
+    width:100%;
+    height: 150px;
+}
 .query .group ul {
   margin:0
 
