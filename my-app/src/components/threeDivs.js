@@ -13,23 +13,28 @@ style={{position:"relative",top:"70px"}}
 >
                 <div className="col-md-6 col-md-offset-3">
                     <div className="dad">
+                  
+                    <p style={{display:"inline-block"}}>  Login As User</p>
                     <img src={user}/>
-                    <p style={{display:"inline-block"}}>دخول كمستخدم عادي</p>
+
                 </div>
             </div>
                 <div  className="col-md-6 col-md-offset-3">
                         <div className="dad">
 
+                       
+                        <p style={{display:"inline-block"}}>  Login As Company</p>
                         <img src={user}/>
-                        <p style={{display:"inline-block"}}>دخول كمستخدم عادي</p>
+
                     </div>
                 </div>
 
                     <div  className="col-md-6 col-md-offset-3">
                             <div className="dad">
 
+                            <p style={{display:"inline-block"}}>  Login As Person</p>
                             <img src={user}/>
-                            <p style={{display:"inline-block"}}>دخول كمستخدم عادي</p>
+
                         </div>
                     </div>
 

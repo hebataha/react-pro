@@ -21,9 +21,9 @@ const SliderSection = props => {
            </div>     
   
             <div className="col-md-4">
-            <div lassName="left-con">
+            <div className="left-con">
                         <div className="img-ads">
-                            <img src={Left}/>
+                            <img src={"http://abdulmateen.net/wp-content/uploads/2018/01/ALL-IN-ONE-SHOP.jpg"}/>
                         </div>
 
                 

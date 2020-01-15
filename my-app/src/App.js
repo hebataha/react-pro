@@ -12,6 +12,14 @@ import FaqPage from './pages/FaqPage';
 import SliderSection from './components/SliderSection';
 import SimpleSlider from './components/SliderComponent';
 import CartComponent from './components/CartComponent';
+import Header from './components/header';
+import {
+  BrowserRouter as Router,
+  Switch,
+  Route,
+  Link,
+} from "react-router-dom";
+
 
 
 
@@ -23,15 +31,41 @@ import './App.css';
 
 function App() {
   return (
+    <Router>
     <div className="App">
-     <SliderSection/>
-     <CartComponent/>
-     <Footer/> 
+    <Header/>
+    <Switch>
+    <Route path="/" exact component={SliderSection}>
+      
+       </Route>
+
+    <Route path="/lo" component={ThreeDivsPage}>
+      
+       </Route>
+
+
+       <Route path="/RE"  component={ResetPass}>
+
+       </Route>
+
+     <Route path="/Send" component={Send}>
+      </Route>
+
+
+
+      <Route path="/Cart" component={CartComponent}>
+      </Route>
+
+
                          {/* <img src={user}/> */}
  
  
+                         </Switch>
+                         <Footer/> 
 
-    </div>
+     </div>
+
+   </Router>
   );
 }
 

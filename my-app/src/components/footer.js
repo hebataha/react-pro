@@ -25,9 +25,7 @@ const Footer = props => {
 
                 <div className="row">
                     <div className="col-md-2">
-                       <p>logo</p>
-                       {/* <img src={re} alt="logo" /> */}
-
+                       <img className="logo" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ5H-6iB46Ko9YA-l3bvefvA_haZq_BbHhNj0JN6o8u8pxNLwuS&s"/>
                     </div>
                     <div className="col-md-4">
                         <div className="all">
@@ -82,7 +80,7 @@ const Footer = props => {
             
             <div className="last-foot text-center">
 
-<p>Copyright $copy;  2013-2019 Freepik Company S.L. All rights reserved. </p>
+<p>Copyright copy 2020 Freepik Company S.L. All rights reserved. </p>
 </div>
         </div>
     );

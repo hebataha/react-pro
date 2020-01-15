@@ -20,13 +20,13 @@ const ResetPass = props => {
                   }}
                 
                 >
-                <div className="col-md-6 col-md-offset-3">
-                   <input className="form-control" type="text" placeholder="New Password"/>
-                   <i classNameName="fas fa-eye"></i>
+                <div className="col-md-6 col-md-offset-3 forget">
+                   <input className="form-control" type="password" placeholder="New Password"/>
+                   {/* <i classNameName="fas fa-eye"></i> */}
             </div>
             <div className="col-md-6 col-md-offset-3">
-                    <input className="form-control" type="text" placeholder="Conform New Password"/>
-                    <i className="fas fa-eye"></i>
+                    <input className="form-control" type="password" placeholder="Conform New Password"/>
+                    {/* <i className="fas fa-eye"></i> */}
                 </div>
 
                 <div className="col-md-6 col-md-offset-3">
